@@ -1,0 +1,272 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "countryName": "Afghanistan"
+    },
+    {
+      "id": 2,
+      "countryName": "Australia"
+    },
+    {
+      "id": 3,
+      "countryName": "Croatia"
+    },
+    {
+      "id": 4,
+      "countryName": "Fiji"
+    },
+    {
+      "id": 5,
+      "countryName": "Georgia"
+    },
+    {
+      "id": 6,
+      "countryName": "Germany"
+    },
+    {
+      "id": 7,
+      "countryName": "Finland"
+    },
+    {
+      "id": 8,
+      "countryName": "France"
+    },
+    {
+      "id": 9,
+      "countryName": "India"
+    },
+    {
+      "id": 10,
+      "countryName": "Iraq"
+    },
+    {
+      "id": 11,
+      "countryName": "Italy"
+    },
+    {
+      "id": 12,
+      "countryName": "United Kingdom"
+    },
+    {
+      "id": 13,
+      "countryName": "United States"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "cityName": "London"
+    },
+    {
+      "id": 2,
+      "cityName": "New York"
+    },
+    {
+      "id": 3,
+      "cityName": "Dubrovnik"
+    },
+    {
+      "id": 4,
+      "cityName": "Somewhere"
+    }
+  ],
+  "hotels": [
+    {
+      "hotelName": "Serene Stays",
+      "numberOfRooms": 125,
+      "hotelLocation": "Somewhere",
+      "hotelImage": "/assets/serene_stays.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Leisure Inn",
+      "numberOfRooms": 105,
+      "hotelLocation": "Somewhere",
+      "hotelImage": "/assets/leisure_inn.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Tranquil Tavern",
+      "numberOfRooms": 80,
+      "hotelLocation": "Somewhere",
+      "hotelImage": "/assets/tranquil_tavern.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Motel Merry",
+      "numberOfRooms": 225,
+      "hotelLocation": "Somewhere",
+      "hotelImage": "/assets/motel_merry.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Mirth Motel",
+      "numberOfRooms": 99,
+      "hotelLocation": "Somewhere",
+      "hotelImage": "/assets/mirth_motel.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "The Londoner",
+      "numberOfRooms": 125,
+      "hotelLocation": "London",
+      "hotelImage": "/assets/the_londoner.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Milestone Hotel Kensington",
+      "numberOfRooms": 80,
+      "hotelLocation": "London",
+      "hotelImage": "/assets/milestone_hotel_kensington.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Rubens At The Palace",
+      "numberOfRooms": 115,
+      "hotelLocation": "London",
+      "hotelImage": "/assets/rubens_at_the_palace.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Park Lane",
+      "numberOfRooms": 105,
+      "hotelLocation": "New York",
+      "hotelImage": "/assets/park_lane_new_york.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Refinery Hotel",
+      "numberOfRooms": 225,
+      "hotelLocation": "New York",
+      "hotelImage": "/assets/rafinery_hotel_new_york.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Le Meridien",
+      "numberOfRooms": 100,
+      "hotelLocation": "New York",
+      "hotelImage": "/assets/le_meridien.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Hotel Dubrovnik Palace",
+      "numberOfRooms": 150,
+      "hotelLocation": "Dubrovnik",
+      "hotelImage": "/assets/hotel_dubrovnik_palace.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Villa Dubrovnik",
+      "numberOfRooms": 50,
+      "hotelLocation": "Dubrovnik",
+      "hotelImage": "/assets/villa_dubrovnik.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    },
+    {
+      "hotelName": "Royal Blue Hotel",
+      "numberOfRooms": 75,
+      "hotelLocation": "Dubrovnik",
+      "hotelImage": "/assets/royal_blue_hotel.jpg",
+      "hotelDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam ipsam reprehenderit."
+    }
+  ],
+  "bookings": [
+    {
+      "city": "New York",
+      "checkIn": "2023-09-01T00:00:00.000Z",
+      "checkOut": "2023-09-15T00:00:00.000Z",
+      "adults": 1,
+      "children": 0,
+      "hotel": "Refinery Hotel",
+      "roomType": "Standard Double Room",
+      "allDineIn": true,
+      "dineIn": [
+        true,
+        true,
+        true
+      ],
+      "foods": [
+        {
+          "name": "Gulash"
+        }
+      ],
+      "extraBed": false,
+      "customerName": "Marko Horvat",
+      "country": "Croatia",
+      "phone": "385994139918",
+      "dateOfBirth": "1985-12-21T23:00:00.000Z",
+      "gender": "male",
+      "guest1Name": "Marko",
+      "guest1Age": 37,
+      "guest1Gender": "male",
+      "guest2Name": null,
+      "guest2Age": null,
+      "guest2Gender": null,
+      "creditCardNumber": 123456,
+      "cvv": 123,
+      "giftCardNumber": null,
+      "status": "Not Paid",
+      "isArchived": false,
+      "isNotified": false,
+      "id": 1
+    }
+  ],
+  "roomtypes": [
+    {
+      "id": 1,
+      "roomTypeName": "Standard Double Room",
+      "price": 100,
+      "vat": 0.1,
+      "maxPersons": 2,
+      "checkIn": "12:00 pm",
+      "checkOut": "11:30 am"
+    },
+    {
+      "id": 2,
+      "roomTypeName": "Deluxe Double Room",
+      "value": "Deluxe Double Room",
+      "price": 120,
+      "vat": 0.1,
+      "maxPersons": 2,
+      "checkIn": "12:00 pm",
+      "checkOut": "11:30 am"
+    },
+    {
+      "id": 3,
+      "roomTypeName": "Business Class Double Room",
+      "price": 150,
+      "vat": 0.1,
+      "maxPersons": 2,
+      "checkIn": "12:00 pm",
+      "checkOut": "11:30 am"
+    },
+    {
+      "id": 4,
+      "roomTypeName": "Standard Single Room",
+      "price": 60,
+      "vat": 0.1,
+      "maxPersons": 1,
+      "checkIn": "12:00 pm",
+      "checkOut": "11:30 am"
+    },
+    {
+      "id": 5,
+      "roomTypeName": "Deluxe Single Room",
+      "price": 75,
+      "vat": 0.1,
+      "maxPersons": 1,
+      "checkIn": "12:00 pm",
+      "checkOut": "11:30 am"
+    },
+    {
+      "id": 6,
+      "roomTypeName": "Business Class Single Room",
+      "price": 90,
+      "vat": 0.1,
+      "maxPersons": 1,
+      "checkIn": "12:00 pm",
+      "checkOut": "11:30 am"
+    }
+  ]
+}
