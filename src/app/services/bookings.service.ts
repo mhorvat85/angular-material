@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { mergeMap } from 'rxjs/operators';
+import { delay, mergeMap } from 'rxjs/operators';
 import { Booking } from '../models/booking';
 
 @Injectable({
@@ -26,6 +26,7 @@ export class BookingsService {
     let index = 0;
     const deleteBookings: any = () => {
       return this.httpClient.delete<Booking[]>(`http://localhost:3000/bookings/${bookings[index].id}`).pipe(
+        delay(10),
         mergeMap((value: any) => {
           if (bookings.length - 1 > index) {
             index = index + 1;
@@ -45,6 +46,7 @@ export class BookingsService {
       return this.httpClient
         .put<Booking[]>(`http://localhost:3000/bookings/${bookings[index].id}`, bookings[index])
         .pipe(
+          delay(10),
           mergeMap((value: any) => {
             if (bookings.length - 1 > index) {
               index = index + 1;
